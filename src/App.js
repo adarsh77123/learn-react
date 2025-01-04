@@ -54,9 +54,8 @@ function App() {
 
   return (
     <>
-    <h1>Bezzu won the free fire match and feeling him self god!!!! but the fun fact is he is not🤣🤣
-      ,If u think like that then you are    <span style={{ color: 'red' }}>WRONG.</span><br/><br/>
-      <center><p>Come lets plaly next match, YOU LOOOOSER!!!</p></center>
+    <h1>
+      <center><p> YOU LOOOOSER!!</p></center>
 
     </h1>
       {/* <Navbar 
