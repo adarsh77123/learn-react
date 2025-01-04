@@ -54,6 +54,7 @@ function App() {
 
   return (
     <>
+    <h1>Bezzu won the free fire match and feeling him self god!!!! but the fun fact is he is not🤣🤣</h1>
       <Navbar 
         title="Adarsh" 
         search="Search" 
