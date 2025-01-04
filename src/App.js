@@ -55,7 +55,7 @@ function App() {
   return (
     <>
     <h1>
-      <center><p> YOU LOOOOSER!!</p></center>
+      <center><p> YOU LOOOOSER!!🤣🤣🤣🤣😝😜🤪😛</p></center>
 
     </h1>
       {/* <Navbar 
