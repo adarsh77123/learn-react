@@ -1,11 +1,12 @@
 import './App.css';
 import Alert from './Components/Alert';
-// import Darkmode from './Components/Darkmode';
-//import Background from './Components/Background';
-// import {
-//   Routes,
-//   Route,
-// } from "react-router-dom";
+import Darkmode from './Components/Darkmode';
+import Background from './Components/Background';
+
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
 import Navbar from './Components/Navbar';
 import Textbox from './Components/Textbox';
 import {  useState } from 'react';
@@ -58,7 +59,7 @@ function App() {
       <center><p> YOU LOOOOSER!!🤣🤣🤣🤣😝😜🤪😛</p></center>
 
     </h1>
-      {/* <Navbar 
+      <Navbar 
         title="Adarsh" 
         search="Search" 
         mode={mode} 
@@ -68,17 +69,17 @@ function App() {
         color={mode === "dark" ? "white" : "black"}
       />
       <Alert alert={alert}/>
-      <Textbox color={mode === "dark" ? "grey" : "white"} mode={mode} Showalert={Showalert}/> 
+      
 
-      {/* <Routes>
-        <Route path="/" element={} />
+      <Routes>
+        <Route path="/" element={<Textbox color={mode === "dark" ? "grey" : "white"} mode={mode} Showalert={Showalert}/> } />
         <Route path="/about" element={<Darkmode/>} />
-      </Routes> */}
+      </Routes>
  
 
     
-    
-    {/* <Background/> */} 
+    <Background/>
+     
     
       
     </>
